@@ -3,8 +3,8 @@
 import TrieveSearchAdapter from "../../../../trieve/trieve-instantsearch-adapter/dist/TrieveSearchAdapter";
 
 const trieveSearchAdapter = new TrieveSearchAdapter(
-  "tr-r28pHcQkPhHpzKZQ1Qw4OzQCQQAQM90k",
-  "fbacc151-5342-4fe8-a762-d8b398d696c4"
+  process.env.TRIEVE_API_KEY,
+  process.env.TRIEVE_DATASET_ID
 );
 
 const { searchClient } = trieveSearchAdapter;
