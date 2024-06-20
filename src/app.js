@@ -1,6 +1,6 @@
 /* global instantsearch */
 
-import TrieveSearchAdapter from "../../../../trieve/trieve-instantsearch-adapter/dist/TrieveSearchAdapter";
+import TrieveSearchAdapter from "trieve-instantsearch-adapter";
 
 const trieveSearchAdapter = new TrieveSearchAdapter(
   process.env.TRIEVE_API_KEY,

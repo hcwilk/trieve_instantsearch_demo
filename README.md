@@ -4,6 +4,12 @@ Super quick proof-of-concept integration between [Trieve](https://github.com/dev
 
 ## Get started
 
-### Upload Books.json to Trieve Dataset
+- Set up an account at the [Trieve Dashboard](https://dashboard.trieve.ai)
 
-Open http://localhost:3000 to see your app.
+- CD into bun-scraper and set up the dataset
+
+- Run `cat example.env > .env` in this directory & set the appropriate values
+
+- yarn install
+
+- yarn start
