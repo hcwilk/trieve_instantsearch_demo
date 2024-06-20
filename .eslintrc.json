@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "env": {
     "browser": true,
     "node": true,
@@ -13,7 +10,6 @@
     "sourceType": "module"
   },
   "rules": {
-    // Add custom rules here
     "no-console": "warn"
   }
 }

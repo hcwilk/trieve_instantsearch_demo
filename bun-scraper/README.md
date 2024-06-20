@@ -3,9 +3,8 @@
 To set up ENV
 
 1. Run the following command
-
-1) Run `cat example.env > .env` in this directory
-2) Set `API_KEY` and `DATASET_ID` in the [Trieve Dashboard](https://dashboard.trieve.ai)
+2. Run `cat example.env > .env` in this directory
+3. Set `API_KEY` and `DATASET_ID` in the [Trieve Dashboard](https://dashboard.trieve.ai)
 
 To install dependencies:
 

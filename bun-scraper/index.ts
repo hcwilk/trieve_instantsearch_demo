@@ -92,7 +92,7 @@ const processBookChunk = async (book: BookData) => {
 };
 
 const processBooks = async () => {
-  const bookList = Bun.file("./books.json"); // Adjust the path to where your JSON file is located
+  const bookList = Bun.file("./books.json"); 
   const books: BookData[] = JSON.parse(await bookList.text());
 
   for (const book of books) {
