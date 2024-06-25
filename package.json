@@ -26,6 +26,6 @@
     "> 0.5%, last 2 versions, not dead"
   ],
   "dependencies": {
-    "trieve-instantsearch-adapter": "^1.0.1"
+    "trieve-instantsearch-adapter": "^1.0.2"
   }
 }

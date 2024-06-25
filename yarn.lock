@@ -3292,10 +3292,10 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-trieve-instantsearch-adapter@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/trieve-instantsearch-adapter/-/trieve-instantsearch-adapter-1.0.1.tgz#dac30ff54c40d9232e984de15f37226aa06945de"
-  integrity sha512-E4E8NVVVAu79LuPsVZJoA2lLLDq9X8yMjS10sAV4vBxy/UNF/U7fiqcxeg+n2bXy+vgqtmDewADl2S3KyiNDag==
+trieve-instantsearch-adapter@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/trieve-instantsearch-adapter/-/trieve-instantsearch-adapter-1.0.2.tgz#d04911865a0b3c58f3293575581654cec27a744c"
+  integrity sha512-qSSlAoC7bHlEZNPc86JRbGcUo2FlnxSGHacTdVcZH0B/kgTs6x2wH0xallBlVGWsLvd1+mwJjeEMVho/WQmavA==
   dependencies:
     "@types/node" "^20.14.6"
     "@types/react" "^18.3.3"
